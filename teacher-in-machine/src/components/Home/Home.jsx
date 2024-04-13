@@ -10,7 +10,7 @@ const bgSnow = _bgSnow;
 const Home = () => {
     // const { loginScreenState, setLoginScreenState } = useLoginScreen();
     return (
-        <main
+        <div
             className="flex min-h-screen flex-col items-center justify-center bg-[#235390] text-white"
             style={{ backgroundImage: `url(${bgSnow.src})` }}>
             <LanguageHeader />
@@ -33,7 +33,7 @@ const Home = () => {
                 </div>
             </div>
             {/* <LoginScreen loginScreenState={loginScreenState} setLoginScreenState={setLoginScreenState} /> */}
-        </main>
+        </div>
     );
 };
 export default Home;
