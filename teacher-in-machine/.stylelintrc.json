@@ -2,7 +2,7 @@
     "extends": ["stylelint-config-standard"],
     "overrides": [
         {
-            "files": ["*.js"],
+            "files": ["*.css"],
             "customSyntax": "postcss-lit"
         }
     ]
