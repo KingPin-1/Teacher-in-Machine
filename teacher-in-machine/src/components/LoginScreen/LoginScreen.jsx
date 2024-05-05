@@ -22,6 +22,7 @@ const LoginScreen = ({ loginScreenState, setLoginScreenState }) => {
     // }, [loginScreenState, loggedIn, setLoginScreenState]);
 
     const logInAndSetUserProperties = () => {
+        setLoginScreenState('HIDDEN');
         navigate('/learn');
     };
 
